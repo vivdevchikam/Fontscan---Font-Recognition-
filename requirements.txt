@@ -1,0 +1,13 @@
+# Core Requirements
+Flask
+Werkzeug
+numpy
+opencv-python-headless  # Headless version for servers
+tensorflow # Specific version for stability
+Pillow # Image processing
+gunicorn # Production server
+h5py  # For model loading
+protobuf  # Required by TensorFlow
+keras  # Match TensorFlow version
+scikit-learn  # If you use any preprocessing
+tensorflow  # Must match training environment
